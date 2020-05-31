@@ -4,7 +4,7 @@ All your password is checked in encrypted manner no 3rd party organisation is co
 
 You can even take a look at the code which ensures you that your password is 100% hash and thus makes the program reliable.
 
-#  Dash your terminal and open the `email_sender` using : 
+#  Dash your terminal and open the email_sender using : 
 
     python3 checkmypass.py <password1> <password2>...<password ••>
 
