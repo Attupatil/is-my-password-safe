@@ -26,9 +26,9 @@ def main(args):
 	for password in args:
 		count =pwned_api_check(password)
 		if count:
-			print(f'{password} was found {count} times...you should change your password')
+			print(f'{password} was found {count} times..you should change your password and create new password of length greater than 12 with symbols')
 		else :
-			print(f'{password} was Not found,carry on')
+			print(f'{password} was Not found,You are Pretty much safe,carry on')
 	return 'done'
 
 if __name__ == '__main__':
